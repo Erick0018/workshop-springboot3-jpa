@@ -6,7 +6,7 @@ public class ResourceNotFoundException extends RuntimeException{
     @Serial
     private static final long serialVersionUID = 1L;
 
-    public ResourceNotFoundException(Object id) {
+    public ResourceNotFoundException(Long id) {
         super("Resource not found. Id " + id);
     }
 }
